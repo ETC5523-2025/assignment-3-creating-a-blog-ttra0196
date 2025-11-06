@@ -1,13 +1,58 @@
 ---
-title: "About"
-image: profile.jpg
+title: "About Thi Lan Anh Tran"
+page-layout: article
+toc: true
+toc-title: "On this page"
+toc-location: right
+image: ttra.jpg
 about:
   template: jolla
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/ttra0196
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/
+    - icon: envelope
+      text: Email
+      href: mailto:your.ttra0196@student.monash.edu
+---
+
+## About Thi Lan Anh Tran
+
+I’m a student in **ETC5523 – Communicating with Data** at Monash University, focused on turning complex datasets into clear stories that help people make better decisions. I work primarily in **R (tidyverse)** with **Quarto** and **GitHub** for fully reproducible analysis.
+
+My current interests include:
+- **Data wrangling & visualisation** (ggplot2, plotly, shiny for interactive explainers)  
+- **Evidence storytelling** for social & economic questions  
+- **Reproducible research** (Quarto sites, parameterised reports, clean project structure)
+
+I value communication that is visually clean, statistically honest, and audience-appropriate.
+
+### Contact
+- Email: ttra0169@student.monash.edu  
+- GitHub: [@ttra0196](https://github.com/ttra0196)  
+- LinkedIn: <https://www.linkedin.com/>
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+## What I’m learning now
+
+- Building **Quarto** websites and blogs with cross-references, citations, and publishing to GitHub Pages  
+- Using **shiny** to demonstrate statistical ideas interactively (e.g., coin-flip probabilities, confidence intervals)  
+- Designing plots and tables for fast comprehension and accessibility
+
+---
+
+## Selected skills
+
+- **Languages & tools:** R, tidyverse, ggplot2, plotly, shiny, Quarto, Git, GitHub  
+- **Workflow:** clean project structure, literate programming, reproducibility, data ethics  
+- **Communication:** audience-first writing, figure/table design, executive summaries
+
+---
+
+## Beyond study
+
+I enjoy music, playing LEGO, and exploring creative ways to explain complex ideas simply.

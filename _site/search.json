@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Thi Lan Anh Tran",
+    "section": "",
+    "text": "I’m a student in ETC5523 – Communicating with Data at Monash University, focused on turning complex datasets into clear stories that help people make better decisions. I work primarily in R (tidyverse) with Quarto and GitHub for fully reproducible analysis.\nMy current interests include: - Data wrangling & visualisation (ggplot2, plotly, shiny for interactive explainers)\n- Evidence storytelling for social & economic questions\n- Reproducible research (Quarto sites, parameterised reports, clean project structure)\nI value communication that is visually clean, statistically honest, and audience-appropriate.\n\n\n\nEmail: ttra0169@student.monash.edu\n\nGitHub: @ttra0196\n\nLinkedIn: https://www.linkedin.com/"
+  },
+  {
+    "objectID": "about.html#about-thi-lan-anh-tran",
+    "href": "about.html#about-thi-lan-anh-tran",
+    "title": "About Thi Lan Anh Tran",
+    "section": "",
+    "text": "I’m a student in ETC5523 – Communicating with Data at Monash University, focused on turning complex datasets into clear stories that help people make better decisions. I work primarily in R (tidyverse) with Quarto and GitHub for fully reproducible analysis.\nMy current interests include: - Data wrangling & visualisation (ggplot2, plotly, shiny for interactive explainers)\n- Evidence storytelling for social & economic questions\n- Reproducible research (Quarto sites, parameterised reports, clean project structure)\nI value communication that is visually clean, statistically honest, and audience-appropriate.\n\n\n\nEmail: ttra0169@student.monash.edu\n\nGitHub: @ttra0196\n\nLinkedIn: https://www.linkedin.com/"
+  },
+  {
+    "objectID": "about.html#what-im-learning-now",
+    "href": "about.html#what-im-learning-now",
+    "title": "About Thi Lan Anh Tran",
+    "section": "What I’m learning now",
+    "text": "What I’m learning now\n\nBuilding Quarto websites and blogs with cross-references, citations, and publishing to GitHub Pages\n\nUsing shiny to demonstrate statistical ideas interactively (e.g., coin-flip probabilities, confidence intervals)\n\nDesigning plots and tables for fast comprehension and accessibility"
+  },
+  {
+    "objectID": "about.html#selected-skills",
+    "href": "about.html#selected-skills",
+    "title": "About Thi Lan Anh Tran",
+    "section": "Selected skills",
+    "text": "Selected skills\n\nLanguages & tools: R, tidyverse, ggplot2, plotly, shiny, Quarto, Git, GitHub\n\nWorkflow: clean project structure, literate programming, reproducibility, data ethics\n\nCommunication: audience-first writing, figure/table design, executive summaries"
+  },
+  {
+    "objectID": "about.html#beyond-study",
+    "href": "about.html#beyond-study",
+    "title": "About Thi Lan Anh Tran",
+    "section": "Beyond study",
+    "text": "Beyond study\nI enjoy music, playing LEGO, and exploring creative ways to explain complex ideas simply."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog Template",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ETC5523 Blog Assessment",
+    "section": "",
+    "text": "Welcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\n\nNo matching items"
+  }
+]
