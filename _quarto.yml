@@ -1,17 +1,31 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "blog-template"
+  title: "Data & Stories of Thi Lan Anh Tran"
   navbar:
+  left:
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: posts/index.qmd
+      - text: About
+        href: about.qmd
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/ttra0196
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
+    toc: true
+    number-sections: false
+    smooth-scroll: true
+    code-copy: true
 
 
 
