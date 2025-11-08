@@ -1,12 +1,74 @@
 ---
-title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
-categories: [news]
+title: "How Climate Change Made the 2019–20 Bushfires More Likely"
+subtitle: "Exploring how rising temperatures have amplified Australia’s fire weather risk"
+author: "Thi Lan Anh Tran"
+date: 2025-10-20
+categories: [Climate, Australia, Bushfires]
+format:
+  html:
+    df-print: paged
+freeze: auto
+---
+![](bushfire.jpeg)
+
+
+## Why this story matters
+
+The **Black Summer bushfires of 2019–20** devastated south-eastern Australia, burning millions of hectares and blanketing cities in smoke.  
+Scientists have since asked: *to what extent did human-driven climate change make such fire weather more likely?*
+
+A recent study by **van Oldenborgh et al. (2021)** examined this question using advanced climate models and fire weather indices.  
+This blog post explains their findings in plain language—how climate change has tilted the odds toward more dangerous fire conditions.
+
 ---
 
-This is the first post in a Quarto blog. Welcome!
+## Analysing the data
 
-![](thumbnail.jpg)
+### Data and methods
+
+Researchers combined:
+- **Observations** from the Bureau of Meteorology and ERA5 reanalysis (1979 – 2020),
+- **Climate-model ensembles** comparing today’s world with a 1900-era world without greenhouse-gas warming,
+- **Fire Weather Index (FWI)** and **Monthly Severity Rating (MSR)** as measures of fire danger.
+
+They applied *extreme-value statistics* to estimate how the probability of events like the 2019–20 season has changed.
+
+### Key findings
+
+| Indicator | What changed | Estimated effect | Notes |
+|------------|---------------|------------------|-------|
+| **Extreme heat** | Much more common | At least ×2 more likely | Models underestimate the observed warming trend |
+| **Drought** | No clear long-term trend | Natural variability dominates | Linked to Indian Ocean Dipole and Southern Annular Mode |
+| **Fire weather** | Far more frequent & intense | ≥ 30 % increase (models) — up to ×4 observed | Driven mainly by hotter temperatures |
+
+*Table @tbl-summary* summarises these key relationships.
+
+```{r}
+#| label: tbl-summary
+#| tbl-cap: "Summary of main climatic drivers of the 2019–20 bushfire season."
+#| echo: false
+summary_table <- data.frame(
+  Indicator = c("Extreme heat", "Drought", "Fire weather"),
+  Effect = c("At least twice as likely", "No clear trend", "At least 30% increase"),
+  Driver = c("Anthropogenic warming", "Natural variability", "Temperature extremes")
+)
+knitr::kable(summary_table, align = "lcl")
+```
+
+
+![](fig1.png){#fig-fig1 fig-cap="Fire Weather Index trends in southeast Australia, 1979-2020."}
+
+As shown in @fig-fig1, **fire weather danger has risen sharply since 1979**.  
+Both the Fire Weather Index (FWI) and the Monthly Severity Rating (MSR) show clear upward trends, meaning that dangerous fire conditions are occurring more often and becoming more intense.
+
+Climate models indicate events as extreme as those in **2019–20 are now at least four times more likely** than they were in 1900, largely driven by the increase in extreme heat associated with human-induced warming.
+
+### What it means
+
+Human-driven warming has tilted the odds toward dangerous fire weather in south-eastern Australia. Heatwaves have roughly doubled in likelihood, and while rainfall variability remains large, higher temperatures alone substantially elevate risk. Because models tend to underestimate observed heat extremes, these estimates are conservative—true risk may be higher. The implication is clear: alongside emissions reductions, Australia needs stronger adaptation and preparedness for a future where seasons like 2019–20 are increasingly likely.
+
+## References
+
+van Oldenborgh, G. J., Krikken, F., Lewis, S., Leach, N. J., Lehner, F., Saunders, K. R., et al. (2021). Attribution of the Australian bushfire risk to anthropogenic climate change. Natural Hazards and Earth System Sciences, 21(3), 941–960. https://doi.org/10.5194/nhess-21-941-2021
 
 
